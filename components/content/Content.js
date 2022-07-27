@@ -22,7 +22,7 @@ if(e.target.value){
 }
 
   return (
-    <div className='border border-l-0'>
+    <div className='border border-l-0 col-span-2'>
         <header className=' p-2 sticky top-0 bg-white opacity-90 z-10'>
             <div className='cursor-pointer flex justify-between items-center'>
             <h1 className='font-semibold text-lg'>Home</h1>

@@ -369,15 +369,47 @@ export const Heart = () => {
 
 export const Share = () => {
   return (
-    <svg
-      viewBox='0 0 24 24'
-      data-testid='iconOutgoing'
-      aria-hidden='true'
-    >
+    <svg viewBox='0 0 24 24' data-testid='iconOutgoing' aria-hidden='true'>
       <g>
         <path d='M17.53 7.47l-5-5c-.293-.293-.768-.293-1.06 0l-5 5c-.294.293-.294.768 0 1.06s.767.294 1.06 0l3.72-3.72V15c0 .414.336.75.75.75s.75-.336.75-.75V4.81l3.72 3.72c.146.147.338.22.53.22s.384-.072.53-.22c.293-.293.293-.767 0-1.06z'></path>
         <path d='M19.708 21.944H4.292C3.028 21.944 2 20.916 2 19.652V14c0-.414.336-.75.75-.75s.75.336.75.75v5.652c0 .437.355.792.792.792h15.416c.437 0 .792-.355.792-.792V14c0-.414.336-.75.75-.75s.75.336.75.75v5.652c0 1.264-1.028 2.292-2.292 2.292z'></path>
       </g>
+    </svg>
+  );
+};
+
+export const Search = () => {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      className='h-6 w-6'
+      fill='none'
+      viewBox='0 0 24 24'
+      stroke='currentColor'
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
+      />
+    </svg>
+  );
+};
+
+export const Times = () => {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      className='h-8 w-8'
+      viewBox='0 0 20 20'
+      fill='#1D9BF0'
+    >
+      <path
+        fillRule='evenodd'
+        d='M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z'
+        clipRule='evenodd'
+      />
     </svg>
   );
 };

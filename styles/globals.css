@@ -13,3 +13,7 @@
     overflow-x: hidden;
   }
 
+
+  .search-wrapper:focus-within label{
+    color:#1d9bf0;
+  }
